@@ -1,0 +1,15 @@
+{
+  "name": "apiway",
+  "owner": {
+    "name": "Apiway",
+    "url": "https://apiway.ai"
+  },
+  "description": "Apiway \u2014 build and host apps from your coding agent.",
+  "plugins": [
+    {
+      "name": "apiway",
+      "source": "./plugins/apiway",
+      "description": "Build and host apps (CRM, bots, internal tools) on Apiway from your agent."
+    }
+  ]
+}

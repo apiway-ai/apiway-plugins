@@ -1,0 +1,7 @@
+{
+  "name": "apiway",
+  "interface": { "displayName": "Apiway" },
+  "plugins": [
+    { "name": "apiway", "source": "./plugins/apiway", "category": "productivity" }
+  ]
+}
