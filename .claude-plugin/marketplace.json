@@ -4,12 +4,12 @@
     "name": "Apiway",
     "url": "https://apiway.ai"
   },
-  "description": "Apiway \u2014 build and host apps from your coding agent.",
+  "description": "Apiway — build and host apps from your coding agent.",
   "plugins": [
     {
       "name": "apiway",
       "source": "./plugins/apiway",
-      "description": "Build and host apps (CRM, bots, internal tools) on Apiway from your agent."
+      "description": "AI website builder in chat: describe a website, landing page or business app, and Apiway builds, hosts and publishes it."
     }
   ]
 }
