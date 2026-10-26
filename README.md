@@ -1,7 +1,9 @@
 # Apiway plugin for Claude Code and Codex
 
-Connects the agent to Apiway (the MCP server) and teaches it how to build Apiway apps: create an app,
-fill its brief, update the preview, and leave publishing to the person.
+Connects the agent to Apiway (the MCP server) with two skills: `apiway-apps` — build Apiway apps
+(create, brief, update the preview, publish when the person asks) — and `apiway-workspace` — work in
+the person's account (mail, tasks, email marketing, automations, memory, generation), with sending and
+deleting only on the person's explicit yes.
 
 ## Install
 

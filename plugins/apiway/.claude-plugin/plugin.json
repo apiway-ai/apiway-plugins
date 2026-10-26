@@ -1,10 +1,13 @@
 {
   "name": "apiway",
-  "version": "1.0.0",
-  "description": "Build and host apps (CRM, bots, internal tools) on Apiway from Claude Code: brief, preview, publish in Apiway.",
-  "author": { "name": "Apiway", "url": "https://apiway.ai" },
-  "homepage": "https://apiway.ai",
+  "version": "1.1.0",
+  "description": "AI website builder in chat: describe a website, landing page or business app, and Apiway builds, hosts and publishes it.",
+  "author": { "name": "Apiway", "email": "info@apiway.ai", "url": "https://apiway.ai" },
+  "homepage": "https://apiway.ai/mcp",
+  "repository": "https://github.com/apiway-ai/apiway-plugins",
+  "license": "MIT",
+  "keywords": ["website builder", "landing page", "app builder", "crm", "email marketing", "telegram chatbot", "instagram chatbot", "ai workspace"],
   "mcpServers": {
-    "apiway": { "type": "http", "url": "https://apiway.ai/api/mcp" }
+    "apiway": { "type": "http", "url": "https://apiway.ai/api/mcp/directory" }
   }
 }
