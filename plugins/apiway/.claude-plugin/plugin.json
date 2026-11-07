@@ -6,6 +6,7 @@
   "homepage": "https://apiway.ai/mcp",
   "repository": "https://github.com/apiway-ai/apiway-plugins",
   "license": "MIT",
+  "privacyPolicyUrl": "https://apiway.ai/legal/privacy-policy",
   "keywords": ["website builder", "landing page", "app builder", "crm", "email marketing", "telegram chatbot", "instagram chatbot", "ai workspace"],
   "mcpServers": {
     "apiway": { "type": "http", "url": "https://apiway.ai/api/mcp/directory" }

@@ -14,8 +14,9 @@ Claude Code:
 /plugin install apiway@apiway
 ```
 
-Codex: Settings → Plugins → Add marketplace `apiway-ai/apiway-plugins` (or Upload plugin archive with
-the file from Apiway → App Factory → Connect → Codex), then press Authenticate next to Apiway.
+ChatGPT and Codex: Apiway is in their plugin directory as «Apiway — AI Workspace» — open
+https://chatgpt.com/plugins/plugin_asdk_app_6ac1b80c1e7c8191ab90cb41923ce43d (or Customize → Plugins → search Apiway),
+press Connect / +, sign in to Apiway and press Allow.
 
 Cursor has no plugin format for this — Apiway gives a one-click "Add to Cursor" link instead.
 

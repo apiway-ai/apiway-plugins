@@ -64,8 +64,8 @@
             {
               "description": "Create a website from the person's own words. Apiway leads them through its brief in the chat, step by step, and builds the site into a private preview.",
               "prompt": "Make me a website for my coffee shop \"Bean There\"",
-              "tools_triggered": "submit_app_brief, brief_step, set_site_brief_answers, list_site_styles, set_site_style_reference, approve_app_spec, preview_code_app_draft, get_preview_update_status",
-              "expected_behavior": "The assistant asks the questions of Apiway’s website brief one at a time and saves only what the person answers: a new site or a refresh, the language, the business, the look (ready styles are shown with pictures, or a link to a site they like), the content, where requests go, wishes. It then says back what it understood, and after the person agrees a website named Bean There is built into a private preview and the reply gives its link. Nothing is published."
+              "tools_triggered": "submit_app_brief, brief_step, set_site_brief_answers, list_site_styles, set_site_style_reference, approve_app_spec, get_code_app, edit_site_slots",
+              "expected_behavior": "The assistant asks the questions of Apiway’s website brief one at a time and saves only what the person answers: a new site or a refresh, the language, the business, the look (ready styles are shown with pictures, or a link to a site they like), the content, where requests go, wishes. It then says back what it understood, and after the person agrees Apiway puts a website named Bean There on a private preview and the approval reply gives its link, which the assistant sends first. Nothing is published."
             },
             {
               "description": "Publish on the person's explicit request. The test account's plan includes publishing.",
